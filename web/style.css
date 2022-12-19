@@ -1,0 +1,56 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	background: rgba(79, 79, 79, 1);
+}
+
+.width-container {
+	background: #232323;
+	box-shadow: 13px 4px 28px rgba(0, 0, 0, 0.25);
+	width: 1700px;
+	color: white;
+	padding: 20px 40px;
+	margin: 0 auto;
+}
+
+.width-container .title {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 128px;
+	line-height: 156px;
+	text-align: center;
+	letter-spacing: 0.15em;
+
+	color: #FFFFFF;
+
+	text-shadow: 9px 4px 11px #000000;
+}
+
+.width-container .subtitle {
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 36px;
+	line-height: 44px;
+	text-align: center;
+
+	color: #FFFFFF;
+
+
+}
+
+.container-well {
+	background: rgba(0, 0, 0, 0.14);
+	box-shadow: inset 0px 4px 4px 11px rgba(0, 0, 0, 0.09);
+	border-radius: 30px;
+	padding: 20px 40px;
+}
+
+.card-description-container {
+	background: #131313;
+	border-radius: 30px;
+	padding: 20px 40px;
+}
