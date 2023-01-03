@@ -1,4 +1,28 @@
 
+@font-face {
+	font-family: 'Montserrat';
+	src: url('fonts/montserrat-light-webfont.woff2') format('woff2'),
+		 url('fonts/montserrat-light-webfont.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('fonts/montserrat-regular-webfont.woff2') format('woff2'),
+		 url('fonts/montserrat-regular-webfont.woff') format('woff');
+	font-weight: 400; 
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('fonts/montserrat-medium-webfont.woff2') format('woff2'),
+		 url('fonts/montserrat-medium-webfont.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -15,7 +39,7 @@ body {
 }
 
 .width-container .title {
-	font-family: 'Montserrat';
+	font-family: 'montserrat-medium-webfont';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 128px;
@@ -30,7 +54,7 @@ body {
 
 .width-container .subtitle {
 
-	font-family: 'Montserrat';
+	font-family: 'montserrat-light-webfont';
 	font-style: normal;
 	font-weight: 300;
 	font-size: 36px;
