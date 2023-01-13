@@ -60,6 +60,7 @@ body {
 	background: rgba(79, 79, 79, 1);
 }
 
+/* Container 1 */
 .width-container {
 	background: #232323;
 	box-shadow: 13px 4px 28px rgba(0, 0, 0, 0.25);
@@ -72,7 +73,7 @@ body {
 .width-container .title {
 	font-family: 'Montserrat';
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 700;
 	font-size: 128px;
 	line-height: 156px;
 	text-align: center;
@@ -97,6 +98,7 @@ body {
 
 }
 
+/* Container 2 */
 .container-well {
 	background: rgba(0, 0, 0, 0.14);
 	box-shadow: inset 0px 4px 4px 11px rgba(0, 0, 0, 0.09);
@@ -116,24 +118,58 @@ body {
 	color: #FFFFFF;
 }
 
+/* Container 3 (descripciones) */
+
 .card-description-container {
-	background: #131313;
+	position: relative;
 	border-radius: 30px;
-	padding: 20px 40px;
+	width: 100%;
+	height: auto;
 }
+
+.feature {
+
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.overlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-radius: 30px;
+	background-color: #131313;
+	overflow: hidden;
+	width: 0%;
+	height: 100%;
+	transition: .8s ease;
+}
+
+.card-description-container:hover .overlay {
+	width: 100%;
+}
+
 
 .card-description-container .card-description {
-	
 	font-family: 'Montserrat';
 	font-style: normal;
-	font-weight: 300;
+	font-weight: 200;
 	font-size: 20px;
-	line-height: 44px;
-	text-align: center;
-
+	position: absolute;
+	text-size-adjust: auto;
+ 	top: 50%;
+  	left: 50%;
+  	-webkit-transform: translate(-50%, -50%);
+ 	-ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+  	white-space: nowrap;
+	
 	color: #FFFFFF;
-
 }
+
+
 
 img {
 	
