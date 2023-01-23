@@ -140,17 +140,23 @@ body {
 .container-flex {
 
 	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	background: rgba(0, 0, 0, 0.14);
-	box-shadow: inset 0px 4px 4px 11px rgba(0, 0, 0, 0.09);
-	border-radius: 30px;
-	padding: 20px 40px;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin: 0 auto;
+
+	
 }
 
 .column {
 
-	flex: 50%;
+	background: rgba(0, 0, 0, 0.14);
+	box-shadow: inset 0px 4px 4px 11px rgba(0, 0, 0, 0.09);
+	border-radius: 30px;
+	padding: 20px 100px;
+	margin: 0 10px;
+	flex-grow: 5;
+
+	
 }
 
 /* Container 3 (descripciones) */
