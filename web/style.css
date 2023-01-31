@@ -98,7 +98,6 @@ body {
 
 	color: #FFFFFF;
 
-
 }
 
 .width-container .subtitle {
@@ -143,8 +142,20 @@ body {
 	flex-flow: row wrap;
 	justify-content: center;
 	margin: 0 auto;
-
 	
+}
+
+.container-flex .container-text-flex {
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 200;
+	font-size: 25px;
+	line-height: 44px;
+	text-align: center;
+
+	color: #FFFFFF;
+
 }
 
 .column {
