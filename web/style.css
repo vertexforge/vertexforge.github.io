@@ -224,6 +224,23 @@ body {
 	color: #FFFFFF;
 }
 
+.button {
+
+	background: rgb(0, 0, 0);
+	box-shadow: 0px 4px 4px 11px rgba(0, 0, 0, 0.09);
+	border-radius: 30px;
+	padding: 20px 40px;
+	margin: 0 10px;
+	flex-grow: 1;
+	font-family: 'Montserrat';
+	font-style: normal;
+	text-align: center;
+	font-weight: 100;
+	font-size: 40px;
+
+	color: #FFFFFF;
+
+}
 
 
 img {
