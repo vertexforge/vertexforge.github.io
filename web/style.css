@@ -153,6 +153,7 @@ body {
 	font-size: 25px;
 	line-height: 44px;
 	text-align: center;
+	flex-wrap: wrap;
 
 	color: #FFFFFF;
 
