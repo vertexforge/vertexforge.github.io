@@ -1,4 +1,9 @@
 
+html {
+
+	scroll-behavior: smooth;
+}
+
 
 /* montserrat-300 - latin */
 @font-face {
@@ -256,7 +261,7 @@ body {
 
 .button-extra {
 
-	background: #ec1414;
+	background: #000000;
 	font-family: 'Montserrat';
 	font-style: normal;
 	text-align: center;
